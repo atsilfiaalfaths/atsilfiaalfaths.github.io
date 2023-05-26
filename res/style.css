@@ -140,8 +140,67 @@ body {
 .judul-resume {
 	background-color: #f1f1f1;
 	border-radius: 8px;
+	
+}
+
+hr {
+	border: 2px dashed #56b876;
 
 }
+
+.box-menu {
+	background-color: #f1f1f1;
+	box-shadow: rgba(17, 12, 46, 0.15) 0px 48px 100px 0px;
+	padding: 5px;
+	border-radius: 8px;
+	/* display: inline; */
+	padding: 20px 25px;
+}
+
+.box-menu:hover{
+	border: 2px dashed #56b876;
+	cursor: pointer;
+}
+
+.box-menu a{
+	text-decoration: none;
+	color: #56b876;
+	font-family: "Sigmar One", cursive;
+	font-size: 1em;
+	font-weight: normal;
+	color: #50c878;
+	-webkit-text-stroke: 0.5px #4a5f6c;
+}
+
+.part-menu h2 {
+	color:  #4a5f6c;
+	font-family: "Sigmar One", cursive;
+	font-size: 1.5em;
+	font-weight: normal;
+	-webkit-text-stroke: 0.5px #56b876;
+}
+
+.part-menu .box-part-menu {
+	/* border-radius: 50px; */
+	padding: 20px;
+	border-radius: 8px;
+	background-color: #fff;
+	box-shadow: rgba(9, 30, 66, 0.25) 0px 1px 1px, rgba(9, 30, 66, 0.13) 0px 0px 1px 1px;
+}
+
+.part-menu .box-part-menu h6 {
+	font-weight: bold;
+	text-align: justify;
+}
+
+.part-menu .box-part-menu p {
+	text-align: justify;
+}
+
+.part-menu ul li {
+	text-align: justify;
+}
+
 @media (max-width: 670px) and (min-height: 500px) {
 	.biodata .foto-biodata {
 		max-height: 150px;
@@ -154,8 +213,49 @@ body {
 
 	.judul-resume {
 		position: fixed;
-		bottom: 0;;
+		bottom: 0;
+		border-top: 2px dashed #56b876;
 	}
+
+	.box-menu {
+		border-radius: 5px;
+		display: block;
+		padding: 5px;
+	}
+
+	.box-menu span {
+		display:none;
+	}
+
+	.box-menu a {
+		font-size: 29px;
+		font-weight: bold;
+		margin:20px 10px;
+	}
+	.box-menu a i{
+		font-size: 18px;
+		font-weight: bold;
+	}
+
+}
+
+
+@media (max-width: 1000px) and (min-height: 670px) {
+
+	.box-menu span {
+		display:none;
+	}
+
+	.box-menu a {
+		font-size: 29px;
+		font-weight: bold;
+		margin:20px 10px;
+	}
+	.box-menu a i{
+		font-size: 18px;
+		font-weight: bold;
+	}
+
 }
 
 
